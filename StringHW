@@ -16,7 +16,7 @@ public class StringHW {
     }
 
     public void string_а_я (){
-        for (int i = 224; i <= 255; i++) {
+        for (int i = 1072; i <= 1103; i++) {
             System.out.print((char) i);
             System.out.print(" ");
         }
@@ -36,3 +36,4 @@ public class StringHW {
         }
     }
 }
+
