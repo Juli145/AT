@@ -8,6 +8,7 @@ public class StringHW {
             System.out.print(" ");
         }
     }
+
     public void string_z_a (){
         for (int i = 122; i >= 97; i--) {
             System.out.print((char) i);
@@ -35,5 +36,24 @@ public class StringHW {
             System.out.print(" ");
         }
     }
-}
 
+    public void integer_to_String(int x){
+        String num = String.valueOf(x);
+        System.out.println(num);
+    }
+
+    public void double_to_String(double x){
+        String num = String.valueOf(x);
+        System.out.println(num);
+    }
+
+    public void string_to_Integer(String str){
+        Integer i = Integer.parseInt(str);
+        System.out.println(i);
+    }
+
+    public void string_to_Double(String str){
+        Double d = Double.valueOf(str);
+        System.out.println(d);
+    }
+}
